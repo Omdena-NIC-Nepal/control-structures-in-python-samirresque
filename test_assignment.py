@@ -32,7 +32,7 @@ def import_notebook_module(notebook_path):
 # Then use in tests
 assignment = import_notebook_module('starter_code.ipynb')
 
-def test_while_loop_even_numbers(capsys):
+def test_while_loop(capsys):
     """Test the while loop for printing even numbers up to 16"""
     assignment.while_loop_even_numbers()
     captured = capsys.readouterr().out.strip().split('\n')
