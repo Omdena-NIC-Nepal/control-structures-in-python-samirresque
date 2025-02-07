@@ -34,7 +34,7 @@ assignment = import_notebook_module('starter_code.ipynb')
 
 def test_while_loop_even_numbers(capsys):
     """Test the while loop for printing even numbers up to 16"""
-    assignment.while_loop()
+    assignment.while_loop_even_numbers()
     captured = capsys.readouterr().out.strip().split('\n')
     
     # Expected output: even numbers from 0 to 16
